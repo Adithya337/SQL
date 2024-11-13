@@ -1,0 +1,25 @@
+Cursors:
+
+Cursor is an data base object that enables traversal over  the rows of a result set of query.
+
+=> Allows you to access and manipulate data in controlled manner.
+=> Provides flexibility in navigating result sets.
+
+=>Cursors can be declared only in transactional blocks.
+
+
+FETCH [direction (rows)] FROM [cursor_name];
+
+Directions for FETCH
+NEXT: Fetches the next rows.
+PRIOR: Fetches the previous rows.
+FIRST: Fetches the first rows.
+LAST: Fetches the last rows.
+ABSOLUTE count: Fetches the row at the absolute position ‘count'.
+RELATIVE count: Fetches the row at the relative position ‘count'.
+ALL: Fetches all remaining rows.
+FORWARD count: Fetches the next ‘count' rows.
+BACKWARD count: Fetches the previous ‘count' rows. 
+
+
+
